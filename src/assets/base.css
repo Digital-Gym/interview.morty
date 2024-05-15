@@ -1,5 +1,13 @@
+:root{
+  --text-color: #F5F5F5;
+  --back-color: #272B33;
+  --card-back: #3C3E44;
+}
+
 body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--back-color);
 }
