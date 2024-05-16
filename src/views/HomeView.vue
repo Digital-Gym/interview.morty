@@ -31,6 +31,13 @@ footer{
 }
 
 .logo{
-  width: 450px;
+  width: 30rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .logo{
+    width: 20rem;
+  }
 }
 </style>

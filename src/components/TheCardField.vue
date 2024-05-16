@@ -112,6 +112,12 @@ onMounted(async ()=>{
     gap:1em;
 }
 
+@media only screen and (max-width: 600px) {
+    .cards{
+        width: 80%;
+    }
+}
+
 .paginator{
     display: flex;
     margin-bottom: 20px;
@@ -124,12 +130,14 @@ onMounted(async ()=>{
 
 .filter-bar{
     width: 60%;
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: white;
     margin-bottom: 20px;
     margin-top: 20px;
+    gap: 1em;
 }
 
 .filter-bar .name, .filter-bar select, .filter-bar .btn{
@@ -138,7 +146,7 @@ onMounted(async ()=>{
 }
 
 .filter-bar .name{
-    width: 30%;
+    width: 200px;
 }
 
 .filter-bar *{
